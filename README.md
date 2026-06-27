@@ -20,3 +20,11 @@ npm install env-config
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'env-config';
+// See API section for available functions
+```
