@@ -1,3 +1,8 @@
+/**
+ * getEnvInt
+ * @param key
+ * @param defaultValue?
+ */
 export function getEnvInt(key: string, defaultValue?: number): number {
   const val = process.env[key];
   if (val === undefined || val === "") {
