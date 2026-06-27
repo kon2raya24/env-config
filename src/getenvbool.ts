@@ -1,3 +1,8 @@
+/**
+ * getEnvBool
+ * @param key
+ * @param defaultValue?
+ */
 export function getEnvBool(key: string, defaultValue?: boolean): boolean {
   const val = process.env[key];
   if (val === undefined || val === "") {
